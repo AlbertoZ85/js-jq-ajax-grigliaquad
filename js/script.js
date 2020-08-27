@@ -3,5 +3,9 @@
 // Il numero ottenuto appare al centro del quadrato.
 
 $(document).ready(function () {
+    for (var i = 0; i < 36; i++) {
+        $('.container').append('<div class="square"></div>')
+    }
+
 
 });

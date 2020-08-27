@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    height: 100vh;
+    width: 75%;
+    margin: auto;
+
+    display: grid;
+    grid-template: repeat(6, 100px) / repeat(6, 100px);
+    gap: 5px;
+    place-content: center;
+}
+
+.square {
+    background-color: teal;
+}
