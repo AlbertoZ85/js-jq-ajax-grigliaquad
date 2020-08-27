@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: lightslategray;
+}
+
 .container {
     height: 100vh;
     width: 75%;
@@ -16,5 +20,18 @@
 }
 
 .square {
-    background-color: teal;
+    color: #222;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid floralwhite;
+    background-color: #333;
+}
+
+.giallo {
+    background-color: gold;
+}
+
+.verde {
+    background-color: forestgreen;
 }
